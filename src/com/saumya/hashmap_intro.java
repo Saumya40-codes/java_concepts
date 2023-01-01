@@ -20,7 +20,6 @@ public class hashmap_intro {
         //Getting values
         System.out.println(empIds.get("Sam")); //244
         System.out.println(empIds.get("kane")); //null
-
         // some other methods
         //to check if certain key or value exists in our map
 
