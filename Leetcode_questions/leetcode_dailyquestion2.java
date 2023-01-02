@@ -19,7 +19,7 @@ Made a new String 'letter' which takes individual letters from string 'word' at 
 -> According to the given question the given word is capital if:
 all letters are capital i.e. (cap_count == words.length)
 ->None are capital i.e.(cap_count == 0)
-OR
+or
 ->First letter is capital i.e. (cap_count == 1 && word.charAt(0) == letter.charAt(0))
 
 Code :
