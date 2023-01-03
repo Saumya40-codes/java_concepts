@@ -16,12 +16,13 @@ public class hashmap_intro {
         System.out.println(empIds);
         //{Tom=212, Sam=244}
         //Map doesn't gaurantee the order here , only the key gets linked with value is taken into concern
-
         //Getting values
         System.out.println(empIds.get("Sam")); //244
         System.out.println(empIds.get("kane")); //null
         // some other methods
         //to check if certain key or value exists in our map
+        empIds.put("kane",244);
+        System.out.println(empIds);
 
         System.out.println(empIds.containsValue(244)); //true
         System.out.println(empIds.containsValue(232)); //false
