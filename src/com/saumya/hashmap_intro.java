@@ -46,5 +46,27 @@ public class hashmap_intro {
         //removing value
         empIds.remove("Steve");
         System.out.println(empIds); //{Tom=265, Sam=232}
+
+        //using of .getOrDefault() method in HashMaps
+        //we are intended to know how many times a number is being repeated in an array
+        int[] arr = {2,2,2,3,3,4,4,4,4,4};
+        HashMap<Integer,Integer> map = new HashMap<>();
+        for(int i : arr){  // here i is just value of arr itterating from index 0 to arr.length-1
+            map.put(i,map.getOrDefault(i,0)+1);
+            //.getOrDefault take two parameter : one is the key and the second is when that key doesnt exists
+            //Working of this:
+            /*
+            As there is initially no key in first itteration o/p will be (i,0+1) == (2,1)
+            now in next itteration as well i = 2 but now as it has value o/p will be (2,1+1) = (2,2)
+            and similarly in 3rd iteration as key is same o/p will be (2,2+1) = 2,3 i.e number of 2s will be counted like this and same for other nums as well
+             */
+        }
+        System.out.println(map); //{2=2, 3=3, 4=5}
+
+        //ways to access the values without mentioning key explicitly
+        //This can be done using .keySet() method
+        for(int vals : map.keySet()){
+            System.out.print(map.get(vals)+" ");//3 2 5
+        }
     }
 }
