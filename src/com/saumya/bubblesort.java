@@ -25,7 +25,7 @@ public class bubblesort {
                 }
             }
         }
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr)); // 3 4 5 6
     }
 }
 
