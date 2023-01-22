@@ -1,3 +1,4 @@
+package com.saumya;
 public class constructor {
     public static void main(String[] args) {
         //Initially every method has one default constructor while creating its object
@@ -5,7 +6,6 @@ public class constructor {
         class Employee {
             float CGPA;
             int exp;
-
             public Employee(String name , float CGPA){
                 System.out.println("name: "+name);
                 System.out.println("CGPA:"+CGPA);
