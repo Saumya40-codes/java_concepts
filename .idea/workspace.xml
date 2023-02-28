@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4a53c92-6d2e-477f-99b2-c3fdfff36f40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/saumya/recursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/saumya/linked_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/saumya/linked_list.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +34,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.recursion">
+  <component name="RunManager" selected="Application.max_heap">
     <configuration name="binary_search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.saumya.binary_search" />
       <module name="dsa_pract" />
@@ -46,13 +44,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="constructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="constructor" />
-      <module name="dsa_pract" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,6 +74,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="max_heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saumya.max_heap" />
+      <module name="dsa_pract" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saumya.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.saumya.recursion" />
       <module name="dsa_pract" />
@@ -98,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.max_heap" />
         <item itemvalue="Application.recursion" />
         <item itemvalue="Application.linked_list" />
         <item itemvalue="Application.binary_search" />
         <item itemvalue="Application.getters_setters" />
-        <item itemvalue="Application.constructor" />
       </list>
     </recent_temporary>
   </component>
