@@ -1,6 +1,4 @@
 package com.saumya;
-
-
 public class linked_list {
     public static void main(String[] args) {
         linked_list l1 = new linked_list();
