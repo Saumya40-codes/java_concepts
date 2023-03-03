@@ -1,4 +1,6 @@
-/* 
+package solved_topic_questions;
+
+/*
 We define the usage of capitals in a word to be right when one of the following cases holds:
 
 All letters in this word are capitals, like "USA".
@@ -24,7 +26,7 @@ or
 
 Code :
 */
-class Solution {
+public class leetcode_dailyquestion2 {
     public boolean detectCapitalUse(String word) {
         int cap_count = 0;
         String letter = "";

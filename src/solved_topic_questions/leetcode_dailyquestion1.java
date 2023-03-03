@@ -1,4 +1,4 @@
-/*
+package solved_topic_questions;/*
 Given a pattern and a string s, find if s follows the same pattern.
 
 Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in s.
@@ -7,9 +7,9 @@ Input: pattern = "abba", s = "dog cat cat dog"
 Output: true
 
 */
-
+import java.util.HashMap;
 //Solution:
-class Solution {
+public class leetcode_dailyquestion1 {
     public boolean wordPattern(String pattern, String s) {
         String[] arr = s.split(" ");   //making String array to store the given string individually and also spliting white spaces in between them
         char[] txt = pattern.toCharArray(); //converting this String into char array

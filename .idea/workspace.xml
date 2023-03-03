@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f4a53c92-6d2e-477f-99b2-c3fdfff36f40" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved_topic_questions/bit_ques_on_codechef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solved_topic_questions/bit_ques_on_codechef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved_topic_questions/leetcode_dailyquestion1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solved_topic_questions/leetcode_dailyquestion1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved_topic_questions/leetcode_dailyquestion2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solved_topic_questions/leetcode_dailyquestion2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved_topic_questions/leetcode_dailyquestion3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solved_topic_questions/leetcode_dailyquestion3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved_topic_questions/leetcode_dailyquestion4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solved_topic_questions/leetcode_dailyquestion4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solved_topic_questions/mergesort_leetcodequestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solved_topic_questions/mergesort_leetcodequestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/saumya/max_heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/saumya/max_heap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +41,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chintan\IdeaProjects\dsa_pract\src" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.max_heap">
     <configuration name="binary_search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.saumya.binary_search" />
@@ -48,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="getters_setters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saumya.getters_setters" />
+    <configuration name="codeforces_1097B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solved_topic_questions.codeforces_1097B" />
       <module name="dsa_pract" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.saumya.*" />
+          <option name="PATTERN" value="solved_topic_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,10 +115,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.max_heap" />
+        <item itemvalue="Application.codeforces_1097B" />
         <item itemvalue="Application.recursion" />
         <item itemvalue="Application.linked_list" />
         <item itemvalue="Application.binary_search" />
-        <item itemvalue="Application.getters_setters" />
       </list>
     </recent_temporary>
   </component>
@@ -131,5 +143,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/saumya/max_heap.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

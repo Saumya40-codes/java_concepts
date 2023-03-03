@@ -1,3 +1,5 @@
+package solved_topic_questions;
+
 /* daily question 3
 You are given an array of n strings strs, all of the same length.
 
@@ -23,7 +25,7 @@ Explanation: The grid looks as follows:
 Columns 0 and 2 are sorted, but column 1 is not, so you only need to delete 1 column.
 Code:
 */ 
-class Solution {
+public class leetcode_dailyquestion3 {
     public int minDeletionSize(String[] strs) {
         int count = 0;
         for(int i = 0 ; i < strs[0].length() ; i++){

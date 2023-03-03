@@ -1,4 +1,4 @@
-/*
+package solved_topic_questions;/*
 2244. Minimum Rounds to Complete All Tasks
 Medium
 
@@ -21,9 +21,13 @@ It can be shown that all the tasks cannot be completed in fewer than 4 rounds, s
 
 code:
 */
-class Solution {
+import java.util.Arrays;
+import java.util.HashMap;
+
+class leetcode_dailyquestion4 {
     public int minimumRounds(int[] tasks) {
         Arrays.sort(tasks);   //sorting the elements
+
         HashMap<Integer , Integer> map = new HashMap<>();
         if(tasks.length < 2){   //as task >=2 wont be solved in this case
         return -1;

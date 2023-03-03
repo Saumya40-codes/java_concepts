@@ -1,21 +1,24 @@
+package solved_topic_questions;
+
 import java.util.Scanner;
-public class CC{
-    public static void main(String[] args){
-        Scanner in = new Scanner(System.in);
-	int N = in.nextInt();
-	for(int i = 0 ; i < N ; i++){
-	   int Q = in.nextInt();
-	   String bin = in.next();
-           int count = 0;
-	for(int j = 0 ; j < bin.length() ; j++){
-           if(bin.charAt(j) == '1')
-		count++;
+public class bit_ques_on_codechef {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int N = in.nextInt();
+		for (int i = 0; i < N; i++) {
+			int Q = in.nextInt();
+			String bin = in.next();
+			int count = 0;
+			for (int j = 0; j < bin.length(); j++) {
+				if (bin.charAt(j) == '1')
+					count++;
+			}
+			if ((count <= 3 && count > 1) || (count == 1 && bin.length() >= 3))
+				System.out.println("YES");
+			else
+				System.out.println("NO");
+		}
 	}
-        if((count<=3 && count > 1) || (count == 1 && bin.length() >=3) )
-	      System.out.println("YES");
-        else
-	      System.out.println("NO");
-    }
 }
 
 /*

@@ -1,3 +1,5 @@
+package solved_topic_questions;
+
 /*
 Merge Sort : In this there are two sorted array given A and B . You have to make one sorted array out of both of this
 
@@ -20,7 +22,8 @@ The result of the merge is [1,2,2,3,5,6] with the underlined elements coming fro
 Code:
 (using two pointers)
 */
-class Solution {
+import java.util.Arrays;
+public class mergesort_leetcodequestion {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         for(int i = m+n-1 , a = m-1 ,b = n-1 ; b >= 0 ; i--){
             if(a>= 0 && nums1[a] > nums2[b])
