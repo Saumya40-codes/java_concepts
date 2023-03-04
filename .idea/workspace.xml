@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f4a53c92-6d2e-477f-99b2-c3fdfff36f40" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/saumya/stacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/saumya/stacks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
       <recent name="C:\Users\Chintan\IdeaProjects\dsa_pract\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.queue">
+  <component name="RunManager" selected="Application.com.saumya.stacks">
     <configuration name="codeforces_1097B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solved_topic_questions.codeforces_1097B" />
       <module name="dsa_pract" />
@@ -56,7 +57,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="max_heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="com.saumya.max_heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.saumya.max_heap" />
       <module name="dsa_pract" />
       <extension name="coverage">
@@ -69,7 +70,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="com.saumya.queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.saumya.queue" />
       <module name="dsa_pract" />
       <extension name="coverage">
@@ -82,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saumya.recursion" />
+    <configuration name="com.saumya.stacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saumya.stacks" />
       <module name="dsa_pract" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saumya.stacks" />
+    <configuration name="deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saumya.deque" />
       <module name="dsa_pract" />
       <extension name="coverage">
         <pattern>
@@ -110,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.queue" />
-        <item itemvalue="Application.stacks" />
+        <item itemvalue="Application.com.saumya.stacks" />
+        <item itemvalue="Application.deque" />
+        <item itemvalue="Application.com.saumya.queue" />
         <item itemvalue="Application.codeforces_1097B" />
-        <item itemvalue="Application.max_heap" />
-        <item itemvalue="Application.recursion" />
+        <item itemvalue="Application.com.saumya.max_heap" />
       </list>
     </recent_temporary>
   </component>
