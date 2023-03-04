@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f4a53c92-6d2e-477f-99b2-c3fdfff36f40" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved_topic_questions/bit_ques_on_codechef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solved_topic_questions/bit_ques_on_codechef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved_topic_questions/leetcode_dailyquestion1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solved_topic_questions/leetcode_dailyquestion1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved_topic_questions/leetcode_dailyquestion2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solved_topic_questions/leetcode_dailyquestion2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved_topic_questions/leetcode_dailyquestion3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solved_topic_questions/leetcode_dailyquestion3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved_topic_questions/leetcode_dailyquestion4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solved_topic_questions/leetcode_dailyquestion4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved_topic_questions/mergesort_leetcodequestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solved_topic_questions/mergesort_leetcodequestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/saumya/max_heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/saumya/max_heap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +23,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2JjPe0U4lhVCrM9gp02IEaEKyOp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,7 +33,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.quicklists&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -46,20 +42,7 @@
       <recent name="C:\Users\Chintan\IdeaProjects\dsa_pract\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.max_heap">
-    <configuration name="binary_search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saumya.binary_search" />
-      <module name="dsa_pract" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.saumya.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.queue">
     <configuration name="codeforces_1097B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solved_topic_questions.codeforces_1097B" />
       <module name="dsa_pract" />
@@ -73,8 +56,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="linked_list" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saumya.linked_list" />
+    <configuration name="max_heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saumya.max_heap" />
       <module name="dsa_pract" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="max_heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saumya.max_heap" />
+    <configuration name="queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saumya.queue" />
       <module name="dsa_pract" />
       <extension name="coverage">
         <pattern>
@@ -112,13 +95,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="stacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saumya.stacks" />
+      <module name="dsa_pract" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saumya.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.max_heap" />
+        <item itemvalue="Application.queue" />
+        <item itemvalue="Application.stacks" />
         <item itemvalue="Application.codeforces_1097B" />
+        <item itemvalue="Application.max_heap" />
         <item itemvalue="Application.recursion" />
-        <item itemvalue="Application.linked_list" />
-        <item itemvalue="Application.binary_search" />
       </list>
     </recent_temporary>
   </component>
