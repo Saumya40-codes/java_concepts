@@ -5,41 +5,42 @@ package com.saumya;
 //Thus while writing method related to every one of them we need to mention the method for the common properties related to all smartphones .
 //With inheritance it is possible to decrease the complexity of this
 public class inheritance {
-    public static void main(String[] args) {
-         class Smartphones{
-             public static void call() {
-                 System.out.println("call");
-                 System.out.println("Class:Smartphones");
-             }
-             public static void ring(){
-                 System.out.println("ringing");
-                 System.out.println("Class:Smartphones");
-             }
-             public static void message() {
-                 System.out.println("Ringing");
-                 System.out.println("Class:Smartphones");
-             }
-             }
-             //now with taking Smartphones class as a template we can other smartphone related class by having property of Smartphones call and adding new property to it
-         class s1 extends Smartphones{
-             //s1 inherits smartphones
-             public static void connect(){
-                 System.out.println("connecting");
-             }
-         }
-         class a1 extends Smartphones{
-             public static void music(){
-                 System.out.println("Music");
-             }
-         }
-         //Class is template of an object and object is an instance of a class
-        Smartphones s = new Smartphones();
-         s.call(); //call  //Class:Smartphones
-         s1 sm1 = new s1();
-         sm1.call(); //call  //Class:Smartphones
-         sm1.connect(); //connecting
-         a1 am1 = new a1();
-         am1.ring(); //ringing //Class:Smartphones
-         am1.music();//Music
-         }
+    int gb = 0;
+
+    public inheritance() {
+        System.out.println("No arguments");
     }
+
+    public inheritance(int gb) {
+        this.gb = gb;
+    }
+
+    public void setgb(int gb){
+        this.gb = gb;
+    }
+    public void getgb(){
+        System.out.println("Parent class");
+        System.out.println(gb);
+    }
+    public static void main(String[] args) {
+        child c1 = new child(8);
+        c1.getgb(); // Parent class 8
+        c1.setGb(24);
+        c1.getGb(); // Child class 24
+    }
+}
+class child extends inheritance{
+    // using super keyword to initialise the constructor of the parent class
+    public child(int gb){
+        super(gb);
+    }
+
+    //using super keyword to access to variable of parent class
+    public void setGb(int gb){
+        super.gb = gb;
+    }
+    public void getGb(){
+        System.out.println("Child class");
+        System.out.println(gb);
+    }
+}

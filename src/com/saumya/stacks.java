@@ -1,6 +1,5 @@
 package com.saumya;
 
-import java.util.Arrays;
 import java.util.Stack;
 
 
@@ -40,6 +39,7 @@ public class stacks {
     }
 
     public int peek() throws Exception {
+
         if(isEmpty()){
             throw new Exception("Cannot peek from an empty stack");
         }

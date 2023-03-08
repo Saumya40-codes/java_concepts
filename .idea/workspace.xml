@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f4a53c92-6d2e-477f-99b2-c3fdfff36f40" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/saumya/hashmap_intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/saumya/hashmap_intro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/saumya/inheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/saumya/inheritance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/saumya/stacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/saumya/stacks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,26 +45,13 @@
       <recent name="C:\Users\Chintan\IdeaProjects\dsa_pract\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.saumya.stacks">
+  <component name="RunManager" selected="Application.inheritance">
     <configuration name="codeforces_1097B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solved_topic_questions.codeforces_1097B" />
       <module name="dsa_pract" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="solved_topic_questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.saumya.max_heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saumya.max_heap" />
-      <module name="dsa_pract" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.saumya.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,13 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="inheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saumya.inheritance" />
+      <module name="dsa_pract" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saumya.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.inheritance" />
         <item itemvalue="Application.com.saumya.stacks" />
         <item itemvalue="Application.deque" />
         <item itemvalue="Application.com.saumya.queue" />
         <item itemvalue="Application.codeforces_1097B" />
-        <item itemvalue="Application.com.saumya.max_heap" />
       </list>
     </recent_temporary>
   </component>
@@ -140,16 +142,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/saumya/max_heap.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -61,6 +61,7 @@ public class hashmap_intro {
             and similarly in 3rd iteration as key is same o/p will be (2,2+1) = 2,3 i.e number of 2s will be counted like this and same for other nums as well
              */
         }
+        
         System.out.println(map); //{2=2, 3=3, 4=5}
 
         //ways to access the values without mentioning key explicitly
