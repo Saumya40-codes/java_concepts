@@ -10,7 +10,7 @@ import java.util.Stack;
 
 public class stacks {
     protected  int[] data;
-    private static final int DEFAULT_SIZE = 10;
+    private static final int DEFAULT_SIZE = 5;
 
     int ptr = -1;
     public stacks(int size) {
@@ -73,19 +73,28 @@ public class stacks {
         //peek method gives the top most value of the stack or say the last entered value
 
         //-->  Custom stack class
-        stacks custom_stack = new stacks();  // no size provided
-        custom_stack.push(40);
-        custom_stack.push(50);
-        custom_stack.push(13);
-        custom_stack.push(24); custom_stack.push(54);  custom_stack.push(99); custom_stack.push(59);
-        custom_stack.push(51);
-        custom_stack.push(33);
-        custom_stack.push(65);
-
-        System.out.println(custom_stack.peek());
-
-        for (int i = 0; i < 10; i++) { //FILO
-            System.out.print(custom_stack.pop()+" ");
+//        stacks custom_stack = new stacks();  // no size provided
+//        custom_stack.push(40);
+//        custom_stack.push(50);
+//        custom_stack.push(13);
+//        custom_stack.push(24); custom_stack.push(54);
+//
+//
+//        System.out.println(custom_stack.peek());
+//
+//        for (int i = 0; i < 10; i++) { //FILO
+//            System.out.print(custom_stack.pop()+" ");
+//        }
+        // but in this custom stack, there is limitation of array length
+        //we can remove that by implementing dyanamic stack i.e whenever array.length is reached we increase it by any mulltiple, in this case of 2
+        stacks ds = new DynamicStack(5); // In this the output will be the same as doing DynamicStack ds = new DynamicStack(5)
+        ds.push(40);           // the above statement is one of the functionality of the OOP where ds can only use the method of the reference class which is stacks , but in the case when method is overridden the method of child class is initiated
+        ds.push(50);
+        ds.push(13);
+        ds.push(24); ds.push(54);
+        ds.push(34);
+        for (int i = 0; i < 6; i++) {
+            System.out.print(ds.pop()+" ");
         }
     }
 }
