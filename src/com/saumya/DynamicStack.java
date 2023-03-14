@@ -8,7 +8,7 @@ public class DynamicStack extends stacks{
         super(size);
     }
 
-    @Override
+    @Override // overiding stacks push method
     public boolean push(int item) {
         if(this.isFull()) {
             // double the array size

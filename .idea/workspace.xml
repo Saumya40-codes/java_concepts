@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4a53c92-6d2e-477f-99b2-c3fdfff36f40" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/saumya/queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/saumya/queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/saumya/DynamicStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/saumya/DynamicStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +44,13 @@
       <recent name="C:\Users\Chintan\IdeaProjects\dsa_pract\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.saumya.queue">
-    <configuration name="codeforces_1097B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solved_topic_questions.codeforces_1097B" />
+  <component name="RunManager" selected="Application.Circular_Queues">
+    <configuration name="Circular_Queues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saumya.Circular_Queues" />
       <module name="dsa_pract" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solved_topic_questions.*" />
+          <option name="PATTERN" value="com.saumya.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Circular_Queues" />
         <item itemvalue="Application.com.saumya.queue" />
         <item itemvalue="Application.com.saumya.stacks" />
         <item itemvalue="Application.inheritance" />
         <item itemvalue="Application.deque" />
-        <item itemvalue="Application.codeforces_1097B" />
       </list>
     </recent_temporary>
   </component>
