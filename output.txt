@@ -1,0 +1,10 @@
+Handling the file input and output. yay !
+Another line
+John
+Kane
+Paine
+1
+2
+3
+4
+8
