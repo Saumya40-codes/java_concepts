@@ -42,7 +42,7 @@
       <recent name="C:\Users\Chintan\IdeaProjects\dsa_pract\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.fileHandling">
+  <component name="RunManager" selected="Application.GUI">
     <configuration name="Circular_Queues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.saumya.Circular_Queues" />
       <module name="dsa_pract" />
@@ -69,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.saumya.queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saumya.queue" />
+    <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saumya.GUI" />
       <module name="dsa_pract" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.saumya.stacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saumya.stacks" />
+    <configuration name="com.saumya.queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saumya.queue" />
       <module name="dsa_pract" />
       <extension name="coverage">
         <pattern>
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GUI" />
         <item itemvalue="Application.fileHandling" />
         <item itemvalue="Application.ExceptionHandling" />
         <item itemvalue="Application.Circular_Queues" />
         <item itemvalue="Application.com.saumya.queue" />
-        <item itemvalue="Application.com.saumya.stacks" />
       </list>
     </recent_temporary>
   </component>
