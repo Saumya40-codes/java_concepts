@@ -10,12 +10,12 @@ public class LoginForm_usingGUI_PasswordandIDS {
         map.put("Saurabh@2003","654321");
         map.put("Saurav@2002","135246");
     }
-
     public HashMap getlogininfo(){
         return map;
     }
 
     public static void main(String[] args) {
-       new LoginForm_usingGUI_PasswordandIDS();
+        new LoginForm_usingGUI_PasswordandIDS();
     }
 }
+
