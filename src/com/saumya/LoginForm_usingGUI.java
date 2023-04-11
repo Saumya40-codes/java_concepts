@@ -87,7 +87,6 @@ public class LoginForm_usingGUI implements ActionListener {
                         messageLabel.setForeground(Color.green);
                         messageLabel.setText("Login Successful");
                         messageLabel.setBounds(125, 250, 250, 35);
-                        LoginForm_usingGUI_welcomePage welcomePage = new LoginForm_usingGUI_welcomePage();
                     } else {
                         messageLabel.setForeground(Color.red);
                         messageLabel.setText("Wrong Password");

@@ -4,7 +4,6 @@ import java.util.HashMap;
 
 public class LoginForm_usingGUI_PasswordandIDS {
     HashMap<String,String> map = new HashMap<String,String>();
-
     LoginForm_usingGUI_PasswordandIDS(){
         map.put("Saumya@2004","123456");
         map.put("Saurabh@2003","654321");
