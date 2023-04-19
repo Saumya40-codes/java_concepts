@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4a53c92-6d2e-477f-99b2-c3fdfff36f40" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/saumya/LoginForm_usingGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/saumya/LoginForm_usingGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/saumya/LoginForm_usingGUI_PasswordandIDS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/saumya/LoginForm_usingGUI_PasswordandIDS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/saumya/LoginForm_usingGUI_welcomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/saumya/LoginPage_main_class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solved_topic_questions/leetcode_Stack_Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solved_topic_questions/leetcode_Stack_Question.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,7 @@
       <recent name="C:\Users\Chintan\IdeaProjects\dsa_pract\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoginForm_usingGUI">
+  <component name="RunManager" selected="Application.leetcode_Stack_Question">
     <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.saumya.GUI" />
       <module name="dsa_pract" />
@@ -101,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fileHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saumya.fileHandling" />
+    <configuration name="leetcode_Stack_Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solved_topic_questions.leetcode_Stack_Question" />
       <module name="dsa_pract" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.saumya.*" />
+          <option name="PATTERN" value="solved_topic_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode_Stack_Question" />
         <item itemvalue="Application.LoginForm_usingGUI" />
         <item itemvalue="Application.Priority_Queues" />
         <item itemvalue="Application.LoginForm_usingGUI_PasswordandIDS" />
         <item itemvalue="Application.GUI" />
-        <item itemvalue="Application.fileHandling" />
       </list>
     </recent_temporary>
   </component>

@@ -18,6 +18,7 @@ Difficulty: Medium
  */
 package solved_topic_questions;
 
+import java.math.BigInteger;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -80,5 +81,4 @@ class Solution {
         return str.toString();
     }
 }
-
  */
