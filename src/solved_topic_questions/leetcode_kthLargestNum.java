@@ -32,6 +32,7 @@ public class leetcode_kthLargestNum {
                 queue.poll();
             }
         }
+
         System.out.println(queue.peek()); //or queue.poll()
     }
 }
