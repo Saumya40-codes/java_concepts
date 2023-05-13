@@ -1,9 +1,6 @@
 package com.saumya;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
 
 public class hashset {
     public static void main(String[] args) {
@@ -43,6 +40,8 @@ public class hashset {
 
         set.clear();
         System.out.println(set);
+
+        Queue<Integer> q = new LinkedList<>();
 
         //using hashset to remove duplicates
         System.out.println();
