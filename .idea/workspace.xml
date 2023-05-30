@@ -44,13 +44,13 @@
       <recent name="C:\Users\Chintan\IdeaProjects\dsa_pract\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FrogJump_dp3">
-    <configuration name="DP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saumya.DP" />
+  <component name="RunManager" selected="Application.Counting_bits_leetcode">
+    <configuration name="Counting_bits_leetcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solved_topic_questions.Counting_bits_leetcode" />
       <module name="dsa_pract" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.saumya.*" />
+          <option name="PATTERN" value="solved_topic_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hashset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saumya.hashset" />
+    <configuration name="cc90" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solved_topic_questions.cc90" />
       <module name="dsa_pract" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.saumya.*" />
+          <option name="PATTERN" value="solved_topic_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saumya.temp" />
+    <configuration name="cf_div3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solved_topic_questions.cf_div3" />
       <module name="dsa_pract" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.saumya.*" />
+          <option name="PATTERN" value="solved_topic_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="temp_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saumya.temp_1" />
+    <configuration name="leetcode_121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solved_topic_questions.leetcode_121" />
       <module name="dsa_pract" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.saumya.*" />
+          <option name="PATTERN" value="solved_topic_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Counting_bits_leetcode" />
+        <item itemvalue="Application.cf_div3" />
+        <item itemvalue="Application.cc90" />
+        <item itemvalue="Application.leetcode_121" />
         <item itemvalue="Application.FrogJump_dp3" />
-        <item itemvalue="Application.DP" />
-        <item itemvalue="Application.hashset" />
-        <item itemvalue="Application.temp_1" />
-        <item itemvalue="Application.temp" />
       </list>
     </recent_temporary>
   </component>
