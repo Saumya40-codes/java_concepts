@@ -44,7 +44,7 @@
       <recent name="C:\Users\Chintan\IdeaProjects\dsa_pract\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Counting_bits_leetcode">
+  <component name="RunManager" selected="Application.try_lc">
     <configuration name="Counting_bits_leetcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solved_topic_questions.Counting_bits_leetcode" />
       <module name="dsa_pract" />
@@ -58,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrogJump_dp3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solved_topic_questions.FrogJump_dp3" />
+    <configuration name="RelativeRanks_LC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solved_topic_questions.RelativeRanks_LC" />
       <module name="dsa_pract" />
       <extension name="coverage">
         <pattern>
@@ -97,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode_121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solved_topic_questions.leetcode_121" />
+    <configuration name="try_lc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saumya.try_lc" />
       <module name="dsa_pract" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solved_topic_questions.*" />
+          <option name="PATTERN" value="com.saumya.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Counting_bits_leetcode" />
-        <item itemvalue="Application.cf_div3" />
-        <item itemvalue="Application.cc90" />
-        <item itemvalue="Application.leetcode_121" />
-        <item itemvalue="Application.FrogJump_dp3" />
+        <item itemvalue="Application.try_lc" />
       </list>
     </recent_temporary>
   </component>
